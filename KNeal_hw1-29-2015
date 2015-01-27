@@ -1,0 +1,28 @@
+EEB 234
+Kevin Neal
+
+for homework for Thurs 1-29:
+read ch. 4 and 6 in Python for Biologists,
+read 4.4 and 4.5 in scb (Allesina course notes)
+do exercise 4.6.1 in scb p. 51
+no need to run code in exercise, just a thought experiment
+turn into CCLE by Thurs 8 am
+
+4.6.1
+#how many times will 'hello' be printed?
+1. 14
+2. 4
+3. 3 for if; 3 for elif = 6 total
+4. 5
+5. 1 + 7 = 8 total
+6.a) foo1 returns square root of x
+b) foo2 returns x if > y; otherwise, returns y
+c) foo3 returns a list: x swaps values with y if x > y,
+y swaps values with z if y > z, if x > y again then x swaps with y again
+so ultimately x swaps values with z. In practice, this reorders x, y, and z
+from smallest to largest. If put in 3, 2, 1 the output is 1, 2, 3
+but because y swaps with z also if y > z, 1, 3, 2 would also be
+reordered to 1, 2, 3
+d) foo4 returns the factorial of x (ranges are exclusive at the upper end)
+e) foo5 also returns the factorial of x. returning 1 if x == 1 prevents it
+from going to zero.
